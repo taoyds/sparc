@@ -251,7 +251,7 @@ Please refer to [the Spider Github page](https://github.com/taoyds/spider/tree/m
 
 We follow the Spider evaluation methods to compute Component Matching, Exact Set Matching, and Execution Accuracies. Check out more details at [the Spider Github page](https://github.com/taoyds/spider).
 
-You can find some evaluation examples.
+You can find some evaluation examples [here](https://github.com/taoyds/sparc/tree/master/evaluation_examples).
 
 ```
 python evaluation.py --gold [gold file] --pred [predicted file] --etype [evaluation type] --db [database dir] --table [table file]
@@ -264,6 +264,10 @@ arguments:
   [table file]       table.json file which includes foreign key info of each database.
   
 ```
+
+### Baseline Models
+
+Please go to [this Github page](https://github.com/ryanzhumich/sparc_atis_pytorch) for the Pytorch implementation of the CD-Seq2Seq baseline that can run on both SParC and ATIS tasks.
 
 ### FAQ
 
