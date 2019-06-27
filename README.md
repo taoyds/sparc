@@ -4,7 +4,7 @@ SParC is a large dataset for complex, cross-domain, and context-dependent(multi-
 
 ### Changelog
 
-- `6/20/2019` SParC 1.0 is released! Please report any annotation errors under this issue, we really appreciate your help and will update the data release in this summer!
+- `6/20/2019` SParC 1.0 is released! Please report any annotation errors under [this issue](https://github.com/taoyds/sparc/issues/1), we really appreciate your help and will update the data release in this summer!
 
 ### Citation
 
