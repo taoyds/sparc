@@ -32,7 +32,7 @@ The dataset is annotated by 14 college students. When you use the SParC dataset,
 
 ### Installation
 
-`evaluation.py` and `process_sql.py` work in Python 2.7 and 3.6. 
+`evaluation.py` and `process_sql.py` were tested in Python 2.7. 
 
 
 ### Data Content and Format
