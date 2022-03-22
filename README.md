@@ -2,6 +2,8 @@
 
 SParC is a large dataset for complex, cross-domain, and context-dependent(multi-turn) semantic parsing and text-to-SQL task (interactive natural language interfaces for relational databases) built upon our [Spider task](https://yale-lily.github.io/spider). It is released along with our ACL 2019 paper: [SParC: Cross-Domain Semantic Parsing in Context](https://arxiv.org/abs/1906.02285). This repo contains all code for evaluation and baselines used in our paper. Please refer to [the SParC task page](https://yale-lily.github.io/sparc) for more general introduction and the leaderboard.
 
+`03/20/2022`: <span style="color:red">We open-sourced a simple but SOTA model (just T5) for the task! Please check out our code in the [UnifiedSKG repo](https://github.com/hkunlp/unifiedskg)!!!</span>
+
 ### Changelog
 
 - `6/20/2019` SParC 1.0 is released! Please report any annotation errors under [this issue](https://github.com/taoyds/sparc/issues/1), we really appreciate your help and will update the data release in this summer!
