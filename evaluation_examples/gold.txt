@@ -340,10 +340,10 @@ SELECT CountryCode FROM countrylanguage	world_1
 SELECT CountryCode FROM countrylanguage EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  "English"	world_1
 
 SELECT DISTINCT CountryCode FROM countrylanguage	world_1
-SELECT DISTINCT CountryCode FROM countrylanguage WHERE LANGUAGE ! =  "English"	world_1
+SELECT DISTINCT CountryCode FROM countrylanguage WHERE LANGUAGE !=  "English"	world_1
 
-SELECT Code FROM country WHERE GovernmentForm ! =  "Republic"	world_1
-SELECT Code FROM country WHERE GovernmentForm ! =  "Republic" EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  "English"	world_1
+SELECT Code FROM country WHERE GovernmentForm !=  "Republic"	world_1
+SELECT Code FROM country WHERE GovernmentForm !=  "Republic" EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  "English"	world_1
 
 SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'English'	world_1
 SELECT Name FROM country WHERE Continent  =  'Europe' AND Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'English')	world_1
