@@ -6,6 +6,12 @@ SParC is a large dataset for complex, cross-domain, and context-dependent(multi-
 
 ### Changelog
 
+- `5/24/2023` New features and bugfixes
+  - Support evaluation in Python3 (Try [py3_evaluation.py](https://github.com/oushu1zhangxiangxuan1/sparc_py3/blob/master/py3_evaluation.py))
+  - Add [eval.sh](https://github.com/oushu1zhangxiangxuan1/sparc_py3/blob/master/eval.sh) and [py3_eval.sh](https://github.com/oushu1zhangxiangxuan1/sparc_py3/blob/master/py3_eval.sh) (You can download and unzip [sparc.zip](https://drive.google.com/uc?export=download&id=1Uu7NMHTR1tdQw1t7bAuM7OPU4LElVKfg) into [data](https://github.com/oushu1zhangxiangxuan1/sparc_py3/blob/master/data) dir, then run the eval shell script)
+  - Fixed several SQL syntax bugs in [evaluation_examples/gold.txt](https://github.com/oushu1zhangxiangxuan1/sparc_py3/commit/da7215f832605a47c915abb679e92cdef5c0d59d#diff-91df7f2b50c609762d07bc2518c80bd01cc36131002e7961873993e3180cb56d) that were causing the evaluation to crash
+  - Add [.gitignore](https://github.com/oushu1zhangxiangxuan1/sparc_py3/blob/master/.gitignore)
+
 - `6/20/2019` SParC 1.0 is released! Please report any annotation errors under [this issue](https://github.com/taoyds/sparc/issues/1), we really appreciate your help and will update the data release in this summer!
 
 ### Citation
